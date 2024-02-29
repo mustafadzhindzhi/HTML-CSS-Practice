@@ -1,0 +1,38 @@
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('../images/hiking_girl_background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 150vh;
+    position: relative;
+    overflow: hidden;
+    top: -90px;
+    background-position: right 150%;
+}
+
+.explore .world {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.explore h4 {
+    font-size: 76px;
+    color: #deb37e;
+    font-weight: 800;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: right;
+    text-transform: uppercase;
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.36));
+    margin-top: 15px;
+}
+
+.explore h4 span {
+    color: #54524f;
+}

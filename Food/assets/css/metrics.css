@@ -1,0 +1,66 @@
+#metrics {
+    background-color: #1b6ec7;
+    min-height: 110vh;
+}
+
+#metrics h2 {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#metrics div.container.statistic-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+#metrics .statistic-item {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+#metrics .statistic-item p {
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#metrics .statistic-item h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#metrics .circle {
+    height: 249px;
+    width: 249px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 78px ;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    #metrics .statistic-item {
+        flex: 0 0 100%; 
+        margin-bottom: 20px; 
+    }
+}
+
+
+

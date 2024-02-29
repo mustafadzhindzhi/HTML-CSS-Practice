@@ -1,0 +1,478 @@
+@import url(./reset.css);
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.register-container {
+    overflow-y: auto;
+    height: 746px;
+    width: 480px;
+    display: block;
+    background-color: rgb(49, 51, 56);
+    border-radius: 5px;
+}
+
+.authBox {
+    height: 746px;
+    box-sizing: border-box;
+    display: block;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+}
+
+.goBackButton {
+    display: inline-block;
+    color: rgb(219, 222, 225);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 2px 2px;
+    text-decoration: none;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.goBackButton:hover {
+    text-decoration: underline;
+}
+
+.centeringWrapper h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: baseline;
+    color: rgb(242, 243, 245);
+}
+
+.block {
+    display: block;
+    margin-top: 20px;
+    width: 416px;
+}
+
+.email,
+.displayName,
+.username {
+    margin-bottom: 20px;
+}
+
+.email label {
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(181, 186, 193);
+}
+
+.email label span {
+    color: rgb(242, 63, 66);
+}
+
+.email .inputEmail {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(148, 155, 164);
+}
+
+.email .inputEmail input {
+    box-sizing: border-box;
+    display: block;
+    height: 40px;
+    width: 416px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(30, 31, 34);
+    color: rgb(219, 222, 225);
+    border-radius: 5px;
+}
+
+.displayName label {
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(181, 186, 193);
+}
+
+.displayName .displaNameInput {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(148, 155, 164);
+}
+
+.displayName .displaNameInput input {
+    box-sizing: border-box;
+    display: block;
+    height: 40px;
+    width: 416px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(30, 31, 34);
+    color: rgb(219, 222, 225);
+    border-radius: 5px;
+}
+
+.username label {
+    margin-bottom: 8;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(181, 186, 193);
+}
+
+.username label span {
+    color: rgb(242, 63, 66);
+}
+
+.username .usernameInput {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(148, 155, 164);
+}
+
+.username .usernameInput input {
+    box-sizing: border-box;
+    display: block;
+    height: 40px;
+    width: 416px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(30, 31, 34);
+    color: rgb(219, 222, 225);
+    border-radius: 5px;
+}
+
+.password label {
+    margin-bottom: 8;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(181, 186, 193);
+}
+
+.password label span {
+    color: rgb(242, 63, 66);
+}
+
+.password .passwordInput {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(148, 155, 164);
+}
+
+.password .passwordInput input {
+    box-sizing: border-box;
+    display: block;
+    height: 40px;
+    width: 416px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(30, 31, 34);
+    color: rgb(219, 222, 225);
+    border-radius: 5px;
+}
+
+.dateOfBirth {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.dateOfBirth .legend {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(181, 186, 193);
+}
+
+.dateOfBirth .legend span {
+    color: red;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.inputs .month {
+    display: block;
+    width: 145.594px;
+    color: rgb(30, 31, 34);
+}
+
+.placeholder span {
+    margin-left: 10px;
+}
+
+.inputs .month .select {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(148, 155, 164);
+}
+
+.inputs .month .select .css {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 40px;
+    position: relative;
+    background-color: rgb(30, 31, 34);
+}
+
+.css-1 {
+    margin-right: 10px;
+}
+
+.css-1 path {
+    fill: rgb(181, 186, 193);
+}
+
+.inputs .day {
+    display: block;
+    width: 124.797px;
+    color: rgb(30, 31, 34);
+}
+
+.inputs .day .select {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(148, 155, 164);
+}
+
+.inputs .day .select .css {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 40px;
+    position: relative;
+    background-color: rgb(30, 31, 34);
+}
+
+.inputs .year {
+    display: block;
+    width: 124.797px;
+    color: rgb(30, 31, 34);
+}
+
+.inputs .year .select {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(148, 155, 164);
+}
+
+.inputs .year .select .css {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 40px;
+    position: relative;
+    background-color: rgb(30, 31, 34);
+}
+
+.specific {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+
+.specific input[type="checkbox"] {
+    display: none;
+}
+
+.specific .checkBoxdiv {
+    width: 27px;
+    height: 22px;
+    border: 1px solid rgb(148, 155, 164);
+    background-color: rgb(49, 51, 56);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.specific .label-text {
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-left: 8px;
+}
+
+.specific .label-text .onlyText {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    vertical-align: baseline;
+    color: rgb(148, 155, 164);
+}
+
+.specific input[type="checkbox"]:checked+.checkBoxdiv {
+    background-color: red;
+}
+
+.forButton {
+    display: block;
+    margin-top: 20px;
+}
+
+.forButton .button1 {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 130px;
+    padding-bottom: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 2px;
+    position: relative;
+    width: 416px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 101, 242);
+    background-origin: padding-box;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.agreement {
+    align-items: center;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.agreement labe3 {
+    align-items: center;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 8px;
+    max-width: 100%;
+    position: relative;
+}
+
+.agreement input[type="checkbox"] {
+    display: none;
+}
+
+.agreement input[type="checkbox"]+.checkBoxdiv {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+}
+
+.agreement .checkBoxdiv {
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgb(148, 155, 164);
+    background-color: rgb(49, 51, 56);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agreement .labe3 {
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-left: 8px;
+}
+
+.agreement .labe3 .defaultColor2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(219, 222, 225);
+}
+
+.agreement input[type="checkbox"]:checked+.checkBoxdiv {
+    background-color: red;
+}

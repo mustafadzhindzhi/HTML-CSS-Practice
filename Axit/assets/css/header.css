@@ -1,0 +1,120 @@
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    background-image: url('../images/image.jpg');
+    background-size: cover;
+    height: 99vh;
+    overflow: hidden;
+}
+
+header .nav-container {
+    background-color: #000000;
+    ;
+    max-width: 1920px;
+    max-height: 72px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo-wrapper img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding-left: 130px;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 150px;
+}
+
+header nav ul li {
+    padding: 23px;
+    margin-bottom: 2px;
+}
+
+header nav a {
+    opacity: 0.690;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    text-decoration: none;
+}
+
+.banner-bg {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.banner-bg .container.banner {
+    padding-top: 110px;
+    padding-left: 78px;
+    width: 100%;
+    max-width: 660px;
+    text-align: left;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+
+.banner-bg .container.banner h1 {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Raleway";
+    margin-top: 28px;
+    margin-bottom: 35px;
+}
+
+.banner-bg .container.banner div>img {
+    width: 30%;
+    height: 30%;
+}
+
+.banner-bg .container.banner .divider {
+    width: 13%;
+    height: 15%;
+    margin-bottom: 25px;
+}
+
+.banner-bg .container.banner p {
+    opacity: 0.800;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+    max-width: 90%;
+    margin-bottom: 40px;
+}
+
+.banner-bg .container.banner .button {
+    font-size: 5px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    border: 2px solid white; 
+    width: 24%;
+    height: 40px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.banner-bg .container.banner .button .p{
+    margin-left: 30px;
+    margin-top:7px;
+}
+

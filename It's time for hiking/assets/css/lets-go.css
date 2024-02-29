@@ -1,0 +1,99 @@
+.lets-go {
+    margin-bottom: 90px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('../images/Shadow.png');
+    background-position: -39% 105%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.lets-go .container-go {
+    text-align: center;
+}
+
+.lets-go .container-go h3 {
+    margin-bottom: 40px;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-size: 63px;
+    text-transform: uppercase;
+    color: #e2a355;
+    font-weight: 800;
+    font-family: "Open Sans";
+}
+
+.lets-go .container-go>p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 27px;
+    color: #7f7770;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.cards {
+    width: 83.3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.cards .card {
+    flex: 0 0 calc(30% - 15px);
+    margin-bottom: 45px;
+}
+
+.cards .card-image .card-content {
+    box-sizing: border-box;
+    background-color: #7f7770;
+    padding: 20px;
+    text-align: left;
+}
+
+.cards .card-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cards .card-image .card-content h4 {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-top: 30px;
+}
+
+.cards .card-image .card-content p {
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+.card-btn {
+    width: 334px;
+    margin-right: 15px;
+    height: 75px;
+    border-radius: 38px;
+    background-color: #7f7770;
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-align: center;
+    border: none;
+}

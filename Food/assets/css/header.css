@@ -1,0 +1,89 @@
+header {
+    background-image: url('../images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    min-height: 110vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+header div.container.nav-container{ 
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+header .logo-wrapper, header nav, header .search-wrapper {
+    flex-grow: 1;
+}
+
+.logo-wrapper img {
+    max-width: 100px; 
+    width: auto;
+    height: auto; 
+    max-height: 80px; 
+    display: inline-block; 
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 80px;
+}
+
+header nav ul li {
+    margin-right: 10px;
+}
+
+header nav ul {
+    gap: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 23px;
+    letter-spacing: 0px;
+    line-height: 39px;
+    color: #ffffff; 
+    font-family: "Montserrat";
+}
+
+#home-link {
+    position: relative;
+}
+
+#home-link::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 62px;
+    height: 3px; 
+    background-color: #b2fcff;
+}
+
+.banner-bg .container.banner {
+    padding-top: 120px;
+    padding-bottom: 160px;
+    width: 100%;
+    max-width: 900px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.banner-bg h1 {
+    font-size: 122px;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin-bottom: 50px;
+}

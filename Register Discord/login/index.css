@@ -1,0 +1,184 @@
+@import url('./reset.css');
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.login-container {
+    width: 100%;
+    height: 400px;
+    max-width: 800px;
+    background-color: #313338;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 0 auto
+        /*независимо колко паддинг сме му добавили като съм му казал,че той ще бъде 700пx ширина и 400 височина да не мърда от тези размери*/
+}
+
+.login-container .left-column {
+    margin-bottom: 50px;
+    width: 60%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.login-container .left-column .title-container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-container .left-column .title-container h1 {
+    font-size: 24px;
+    color: #f2f3f5;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.login-container .left-column .title-container p {
+    color: #b5bac1;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.login-container .left-column form label {
+    text-transform: uppercase;
+    display: block;
+    font-size: 12px;
+    color: #b5bac1;
+    font-weight: bold;
+}
+
+.login-container .left-column form label span {
+    color: red;
+}
+
+.login-container .left-column form input {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #1e1f22;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.login-container .left-column form :nth-child(4) {
+    margin-bottom: 10px;
+}
+
+.login-container .left-column form :last-child {
+    margin-top: 25px;
+}
+
+.login-container .left-column form input[type="submit"] {
+    background: #5865f2;
+    text-transform: capitalize;
+    padding: 10px;
+    height: unset;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container .left-column form input[type="submit"]:hover {
+    background-color: #4752c4;
+}
+
+.login-container .left-column a {
+    text-decoration: none;
+    color: #00a8fc;
+    font-size: 14px;
+}
+
+.login-container .left-column a:hover {
+    text-decoration: underline;
+}
+
+.login-container .left-column p {
+    color: #b5bac1;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.login-container .vertical-separator {
+    margin: 0 32px;
+    display: inline-block;
+}
+
+.login-container .right-column {
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.login-container .right-column h2 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #f2f3f5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.login-container .right-column p {
+    font-size: 16px;
+    color: #f2f3f5;
+}
+
+.container-test{
+    position: relative;
+    background-color:red;
+    padding: 40px;
+}
+.test, .test2 {
+position: fixed; /*static - нормалното разпределение в дом дървото, където сме го написали там ще се появи, когато дойде неговия ред. дефалтното място, на което ще се показва елемента. Relative - тя е релативна спрямо статичната позиция на елемента, тя зависи от статичната позиция. Absolute - елемента изчезва от нормалния флоу на елементите, неговата статична позиция я няма.Абсолютната позиция зависи от най-близкия родител с релативна, ако няма такъв то се водим по бодито. Фиксирана позиция се грее само и единствено от разпределението от екрана, тя зависи от екрана. */
+top: 25px;
+right: 25px;
+width: 100px;
+height: 100px;
+background: red;
+}
+
+.test{
+    background: blue;
+    /*z-index: 1;*/ /*пращаме го като първи елемент, така квадратчето става синьо. Също така цвета зависи от това, колко е голям индекса, по-големия показва него.*/
+}
+.test2{
+    width: 80px;
+    height: 80px;
+    background-color: red; /*това кой цвят ще се показва зависи от това кой елемент е записан последно в хтмл-а*/
+    opacity: 0.7; /*то има стойности от 0 до 1, 1 означава, че елемента е видим 0-невидим. това е прозрачност, с него може да създаваме някакъв тип прозрачност и да комбинираме коя част от елемента да се вижда. При цветовете също може да създаваме опасити иоли алфа канал, което да го направим прозрачно и да му сменим цвета, но това е при rgba*/
+    visibility: none;
+}
+
+.container-test2{
+    background-color: #00a8fc;
+    position: sticky; /*елемента остава там, където съм му казал в момента в който ще скролна след него, като скролваме елемента си стои*/
+    top: 0;
+    z-index: 99;
+}
+
+.transformable{
+    width: 100px;
+    height: 100px;
+    background-color:#5865f2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%); /*със scale него си определеме формата и колко голямо да е. Със транслате преместваме елемента. */
+    transform: rotate3d(1, 1, 1, 45deg);
+}

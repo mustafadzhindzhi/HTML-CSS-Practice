@@ -1,0 +1,45 @@
+#testimonials{
+    max-height:160vh;    
+    padding-top:100px;
+    background-color: white;
+}
+
+#testimonials h2{
+    font-size: 36px;
+line-height: 43px;
+color: #212121;
+font-weight: 400;
+font-family: "Raleway";
+text-align: center;
+margin-right: 40px;
+margin-bottom: 23px;
+}
+
+#testimonials .dev {
+    display: block;
+    margin: 0 auto; 
+}
+
+#testimonials > p{ 
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+margin-top: 25px;
+margin-right: 40px;
+margin-bottom: 15px;
+}   
+
+#testimonials div.container.menu-item{
+    justify-content: space-around;
+}
+
+#testimonials .menu-item{
+    flex: 1 1 400px; 
+    text-align: center;
+    padding: 20px;
+    margin-left: -50px;
+    margin-bottom: 50px;
+}

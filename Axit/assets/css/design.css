@@ -1,0 +1,39 @@
+#design{
+    background-image: url('../images/image\ \(1\).jpg');
+    background-size: cover;
+    min-height: 45vh;
+    padding-top: 80px;
+}
+
+#design h3{
+    font-size: 36px;
+color: #ffffff;
+font-family: "Raleway";
+text-align: center;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+#design .dev{
+    display: block;
+    margin: 0 auto; 
+}
+
+#design p{
+    opacity: 0.800;
+font-size: 16px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Raleway";
+text-align: center;
+margin-top: 35px;
+}
+#design h4{
+    font-size: 15px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Open Sans";
+text-align: center;
+margin-top: 48px;
+margin-right: 30px;
+}

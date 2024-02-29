@@ -1,0 +1,124 @@
+.product .container {
+    align-items: center;
+    position: relative;
+    overflow: hidden; 
+    display: flex; 
+    flex-direction: row;
+}
+
+.product{
+    position: relative;
+    overflow: hidden;
+    display: flex; 
+    overflow: visible; 
+    flex-direction: column;
+    min-height: 110vh;
+}
+
+
+.product .content-wrapper {
+    flex: 1; 
+}
+
+.product .content-wrapper h2 {
+    font-size: 50px;
+    color: #1b6ec7;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin-bottom: 25px;
+    margin-top: 100px;
+}
+
+.product .content-wrapper p {
+    font-size: 14px;
+    color: #1a1a1a;
+    width: 100%;
+    max-width: 530px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+
+.product .image-wrapper,
+.product .content-wrapper {
+    flex: 1 1 50%;
+    position: relative;
+}
+
+.product .image-wrapper {
+    text-align: center;
+}
+
+.product .image-wrapper img {
+    width: 415px;
+    height: 415px;
+    border-radius: 207px;
+    position: relative;
+    top: 50px;
+    right: 30px;
+    background-color: #4d80e4;
+}
+
+.product .shape {
+    position: absolute;
+    width: 149px;
+    height: 147px; 
+    z-index: 100;
+    overflow: hidden;
+}
+
+.shape-top-right {
+    bottom: 70%;
+    left: 79%;
+}
+
+.shape-bottom-right {
+    bottom: 0%;
+    right: 9.5%;
+}
+
+.shape-bottom-left {
+    top:78%;
+    left: 5%;
+}
+
+.shape-top-left {
+    bottom: 74%;
+    left: 5%;
+}
+
+
+
+
+
+
+
+/* Large devices /desktop, laptop/ */
+@media screen and (max-width: 768px) {
+    .product {
+        text-align: center;
+    }
+
+    .product .container {
+        flex-direction: column;
+    }
+
+    .product .content-wrapper,
+    .product .image-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .product .image-wrapper img {
+        max-width: unset;
+    }
+
+    .product .content-wrapper h2 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .product .content-wrapper p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,98 @@
+#contact-us .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+
+#contact-us h2 {
+    font-size: 53px;
+    color: #4d80e4;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#contact-us p {
+    width: 782px;
+    height: 99px;
+    font-size: 25px;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom:60px;
+}
+
+#contact-us form {
+    position: relative;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto
+}
+
+#contact-us form input {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px 200px 15px 25px;
+    border: none;
+    width: 100%;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+#contact-us form input::placeholder {
+    color: rgb(0, 0, 0.0.7);
+}
+
+#contact-us form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: max-content;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #1b6ec7;
+    padding: 15px;
+}
+
+
+#contact-us .shape {
+    position: absolute;
+    border-radius: 2px;
+}
+
+#contact-us .shape-top-right2 {
+    top: 75px;
+    right: 80px;
+    width: 250px;
+    height: 250px;
+}
+
+#contact-us .shape-bottom-right2 {
+    bottom: 45px;
+    right: 154px;
+    width: 200px;
+    height: 200px;
+}
+
+#contact-us .shape-bottom-left2 {
+    bottom:80px;
+    left: 160px;
+    width: 180px;
+    height: 150px;
+}
+
+#contact-us .shape-top-left2 {
+    top: 140px;
+    left: 85px;
+}

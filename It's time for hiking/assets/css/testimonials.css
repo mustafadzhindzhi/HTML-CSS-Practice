@@ -1,0 +1,81 @@
+.testimonials {
+    position: relative;
+    background-image: url('../images/testimonials.png');
+    background-position: 150% 150%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.testimonials .lorem {
+    max-width: 1200px;
+    ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -75px auto;
+    padding: 0 0px;
+}
+
+.lorem .dolor {
+    flex: 0 0 calc(33% - 25px);
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+.lorem .dolor h5 {
+    font-size: 33px;
+    line-height: 33px;
+    color: #deb37e;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-bottom: 25px;
+}
+
+.lorem .dolor p {
+    font-size: 19px;
+    line-height: 25px;
+    color: #333d42;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.testimonial2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 310px;
+}
+
+.testimonial2 span {
+    font-size: 100px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-right: 85px;
+}
+
+.testimonial2 h5 {
+    width: 817px;
+    height: 161px;
+    font-size: 25px;
+    color: #3f3f3f;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-right: 90px;
+    margin-top: -10px;
+}
+
+.testimonial2 p {
+    font-size: 21px;
+    line-height: 33px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-right: 100px;
+    margin-top: -30px;
+}

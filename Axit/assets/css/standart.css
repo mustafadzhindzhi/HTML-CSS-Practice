@@ -1,0 +1,46 @@
+.standart{
+    padding-top: 100px;
+    min-height: 78vh;
+    background-image: url('../images/Features\ Panel\ 3.jpg');
+    background-size: cover;
+}
+
+.standart .everything{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.standart .everything .content{
+    width: 40%;
+}
+
+.standart .everything .content h3{
+    font-size: 20px;
+line-height: 43px;
+color: #212121;
+font-weight: 700;
+font-family: "Open Sans";
+margin-top:0px;
+margin-left: 10px;
+margin-bottom: 5px;
+}
+
+.standart .everything .content p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+margin-top: 20px;
+margin-left: 10px;
+}
+
+.standart .everything .image-wrapper{
+    margin-top: -35px;
+    margin-left: 150px;
+}
+
+

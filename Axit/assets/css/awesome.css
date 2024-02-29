@@ -1,0 +1,70 @@
+#awesome{
+    max-height:110vh;    
+    padding-top: 70px;
+}
+
+#awesome h2{
+    font-size: 36px;
+line-height: 43px;
+color: #212121;
+font-weight: 400;
+font-family: "Raleway";
+text-align: center;
+margin-right: 30px;
+margin-bottom: 20px;
+}
+
+#awesome .dev {
+    display: block;
+    margin: 0 auto; 
+}
+
+#awesome > p{ 
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+margin-top: 25px;
+margin-right: 40px;
+margin-bottom: 40px;
+}   
+
+#awesome div.container.menu-item{
+    justify-content: space-around;
+}
+
+#awesome .menu-item{
+    flex: 1 1 400px; 
+    text-align: center;
+    padding: 20px;
+}
+
+#awesome .menu-item img{
+    border-radius: 50%;
+    margin-bottom: 25px;
+    border: 2px solid orange;
+    margin-right: 40px;
+    padding: 15px 20px;
+}
+
+#awesome .menu-item h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#awesome .menu-item p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+margin-bottom: 50px;
+}

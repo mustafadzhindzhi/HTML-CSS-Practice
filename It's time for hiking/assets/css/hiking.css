@@ -1,0 +1,39 @@
+.hiking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/hiking_section_background.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 120vh;
+    top: 40px;
+}
+
+.content {
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.hiking .content h3 {
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.hiking .content p {
+    width: 100%;
+    max-width: 955px;
+    height: 188px;
+    font-size: 29px;
+    color: #dbdbdb;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-right: 110px;
+    padding-top: 50px;
+}

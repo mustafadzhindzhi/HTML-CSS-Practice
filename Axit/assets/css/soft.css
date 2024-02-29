@@ -1,0 +1,103 @@
+.tabs {
+    background-image: url('../images/Features\ Panel\ 1.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1920px;
+    min-height: 80.5vh;
+    padding-top:0px;
+}
+
+.tabs .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.tabs .first-part .tab1,
+.tabs .first-part .tab2,
+.tabs .first-part .tab3 {
+    margin-right: 78px;
+    margin-bottom: -3px;
+}
+
+.tabs .content .first-part {
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.tab {
+    position: relative;
+    display: inline-block;
+}
+
+.tab img {
+    display: block;
+}
+
+.tab p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.tabs .soft{
+    padding-top: 56px;
+    max-width: 45%;
+    margin-right: 65px;
+}
+
+.tabs .soft h3{
+    font-size: 20px;
+color: #000000;
+font-weight: 700;
+font-family: "Open Sans";
+margin-bottom: 50px;
+}
+
+.tabs .soft p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+margin-bottom: 45px;
+}
+
+.tabs .soft .btn-soft {
+    position: relative;
+    display: inline-block;
+}
+
+.tabs .soft .btn-soft img {
+    display: block;
+}
+
+.tabs .soft .btn-soft p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.tabs .the-image{
+    margin-top: 70px;
+    margin-right: 40px;
+}

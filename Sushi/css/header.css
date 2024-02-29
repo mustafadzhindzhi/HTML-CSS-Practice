@@ -1,0 +1,176 @@
+header div.container.nav-container{ 
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo-wrapper, header nav, header .search-wrapper {
+    flex-grow: 1;
+}
+
+header .logo-wrapper a{ 
+    font-size: 30px;
+    color: #ffff;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+header .logo-wrapper a span{
+    color: rgb(227, 212, 0)
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a{
+    font-size: 25px;
+    color: #ffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+header .search-wrapper{
+    text-align: end;
+    font-size: 25px;
+}
+
+header .search-wrapper i{
+    cursor: pointer;
+}
+
+header .banner-bg{
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+header .banner-bg div.container.banner{ 
+padding-top: 120px;
+padding-bottom: 120px;
+align-items: center;
+}
+
+header .banner-bg div.container.banner h1{
+    font-size: 125px;
+    font-weight: 700;
+    font-family: "Monsterrat";
+    margin-bottom: 70px;
+}
+
+header .banner-bg div.container.banner p{
+    font-size: 30px;
+    color: #ffff;
+    font-weight: 400;
+    font-family: "Monsterrat";
+    text-decoration: none;
+    max-width: 50%; 
+    margin-bottom: 50px;
+}
+
+
+
+/*MEDIA QUERY*/
+
+.mobile-nav{
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+.mobile-nav span{
+    background-color: black;
+    width: 50px;
+    height: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*Extra small devices //phone, smartwatch*/
+@media screen and (max-width:600px) {
+
+    header .search-wrapper,
+    header nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+    }
+
+    header .logo-wrapper a{
+        font-size: 20px;
+    }
+    header .banner-bg div.container.banner h1{
+        font-size: 46px;
+
+    }
+
+    header .banner-bg div.container.banner p{
+        font-size: 16px;
+        max-width: unset;
+    }
+
+}
+
+/* @media screen and (min-width:600px) {
+    header div.container.nav-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .search-wrapper,
+    header nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+    }
+} */
+
+@media screen and (max-width:768px) {
+    
+}
+
+/*Large devices /desctop, laptop/ */
+@media screen and (max-width: 992px) {
+
+    header .banner-bg div.container.banner{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    header div.container.banner{
+        justify-content: center;
+        align-items: center;
+    }
+
+    header div.container.banner > div{
+        text-align: center;
+    }
+
+    header .search-wrapper,
+    header nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+    }
+
+    header .banner-bg div.container.banner h1{
+        font-size: 68px;
+    }
+}
+
+/*Extra large devices /desctop, large laptop/ */
+@media screen and (max-width:1200px) {
+
+}
+
+

@@ -1,0 +1,45 @@
+body{
+    padding: 0; 
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 50vh; 
+    background-color: red;
+}
+
+/*Extra small devices - phones, smartwarches and other smart devices(for example fridge with screen)*/
+@media screen and (max-width: 600px) {
+    .container{
+        background-color: blueviolet;
+    }
+}
+
+/*Small devices - portrait tablet, larger phones*/
+@media screen and (min-widht: 600px) {
+    .container{
+        background-color: turquoise;
+    }
+}
+
+/*Medium devices - horizontal tablet, small laptops(older)*/
+@media screen and (min-width:768px){
+    .container{
+        background-color: blue;
+    }
+}
+
+/*Large diveces - desctop and laptop*/
+@media screen and (min-width: 992px){
+    .container{
+        background-color: yellow;
+    }
+}
+
+/*Min-wirdh - For extra large devices - desctop, large laptop, tv*/
+@media screen and (min-width:1200px) { 
+    .container{
+        background-color: green;
+    }
+}
