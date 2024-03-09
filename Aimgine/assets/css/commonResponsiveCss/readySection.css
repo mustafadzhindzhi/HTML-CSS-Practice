@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+    .ready {
+        padding: 70px 0px 0 20px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .ready__image img {
+        width: 278px;
+        height: 217px;
+    }
+
+    .ready__text p {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ready__content {
+        margin-top: 0;
+        height: auto
+    }
+
+    .ready__content-buttons {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .ready__text {
+        width: 95%;
+        padding-top: 16rem;
+    }
+
+    .ready__text h2 {
+        padding-left: 0;
+    }
+
+    .ready__text p {
+        margin-right: 10px;
+    }
+
+    .ready__content-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #drop__btn {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}

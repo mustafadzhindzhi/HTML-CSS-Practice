@@ -1,0 +1,60 @@
+@import url('header.css');
+@import url('firstSection.css');
+@import url('secondSection.css');
+@import url('thirdSection.css');
+@import url('readySections.css');
+@import url('footer.css');
+@import url('/assets/css/font-awesome.css');
+@import url('firstSectionHome.css');
+
+@import url('/assets/css/commonResponsiveCss/readySection.css');
+@import url('/assets/css/commonResponsiveCss/footerResponsive.css');
+@import url('/assets/css/commonResponsiveCss/headerResponsive.css');
+
+@import url('/assets/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+    overflow-x: hidden;
+    font-family: 'Spartan', sans-serif;
+}
+
+.button {
+    border-radius: 38px;
+    font-family: 'Roc Grotesk', sans-serif;
+    font-weight: 700;
+    size: 14px;
+    line-height: 20.3px;
+    color: #000000;
+    background-color: #FFCE34;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: #c49300;
+    transition: 0.3s ease-in;
+}
+
+.primary-color {
+    color: #FFCE34;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 300;
+}
