@@ -1,10 +1,7 @@
 @import url('/Aimgine/assets/css/whatwedo/header.css');
 @import url('/Aimgine/assets/css/whatwedo/footer.css');
-@import url('/Aimgine/assets/css/details/details.css');
-@import url('/Aimgine/assets/css/font-awesome.css');
-@import url('/Aimgine/assets/css/details/challenges.css');
-@import url('/Aimgine/assets/css/details/images.css');
-@import url('/Aimgine/assets/css/whatwedo/thirdSection.css');
+@import url('/Aimgine/assets/css/customers/customer-card.css');
+@import url('/Aimgine/assets/css/whatwedo/readySections.css');
 
 @import url('/Aimgine/assets/css/commonResponsiveCss/headerResponsive.css');
 @import url('/Aimgine/assets/css/commonResponsiveCss/footerResponsive.css');
