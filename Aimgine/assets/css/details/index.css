@@ -1,12 +1,9 @@
 @import url('/Aimgine/assets/css/whatwedo/header.css');
 @import url('/Aimgine/assets/css/whatwedo/footer.css');
-@import url('/Aimgine/assets/css/ourWork/ourWork.css');
-@import url('/Aimgine/assets/css/ourWork/featuresCard.css');
-
+@import url('/Aimgine/assets/css/details/details.css');
+@import url('/Aimgine/assets/css/font-awesome.css');
 
 @import url('/Aimgine/assets/css/commonResponsiveCss/headerResponsive.css');
-@import url('/Aimgine/assets/css/commonResponsiveCss/footerResponsive.css');
-
 @import url('/Aimgine/assets/css/font-awesome.css');
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -19,7 +16,7 @@ html {
 }
 
 body {
-    background-color: #050505;
+    background-color: #FFFFFF;
     position: relative;
 }
 
