@@ -1,0 +1,30 @@
+.our_work {
+    padding: 35px 0px 0px 30px;
+    height: auto;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.our_work h2{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 88px;
+    color: #FFFF;
+}
+
+.our_work button{
+    width: 145px;
+    height: 32px;
+    border-radius: 6px;
+    padding: 9px 12px 9px 12px;
+    background-color: #FFCE34;
+    border: none;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.our_work button:hover{
+cursor: pointer;
+background-color: #deac09;
+transition: 0.3s ease-in-out
+}
