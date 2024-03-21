@@ -1,13 +1,13 @@
 @import url('firstSectionHome.css');
-@import url('/assets/css/whatwedo/header.css');
+@import url('/Aimgine/assets/css/whatwedo/header.css');
 @import url('services.css');
 @import url('screenshot.css');
 @import url('powers.css');
 @import url('feature.css');
 @import url('work.css');
 @import url('blog.css');
-@import url('/assets/css/whatwedo/readySections.css');
-@import url('/assets/css/whatwedo/footer.css');
+@import url('/Aimgine/assets/css/whatwedo/readySections.css');
+@import url('/Aimgine/assets/css/whatwedo/footer.css');
 
 @import url('/assets/css/commonResponsiveCss/readySection.css');
 @import url('/assets/css/commonResponsiveCss/footerResponsive.css');

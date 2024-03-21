@@ -1,34 +1,50 @@
 .footer {
     display: flex;
     width: 98%;
-    height: 296px;
+    height: auto;
     background-color: #111111;
     margin: 0 auto;
     padding-top: 15px;
     border-radius: 32px;
     margin-top: 220px;
+    flex-wrap: wrap;
+}
+
+.logo-footer  {
+    width: 100%;
+    height: 50%;
+}
+
+.logo-footer img{
+    width: 100%;
+    height: 100%;
 }
 
 .left-part {
     padding-left: 55px;
-    padding-top: 45px;
     width: 16.6%;
 }
 
 .icons .icons-logos {
     display: flex;
+    max-width: 100%;
 }
 
 .icons {
     display: flex;
     flex-direction: column;
-    padding-top: 65px;
+    flex-wrap: wrap; 
 }
 
 .icons h3 {
     text-transform: uppercase;
     font-size: 14px;
     color: #F9F9F9;
+}
+
+.icon {
+    display: inline-flex; /* Use inline-flex to ensure icons stay in a line */
+    flex-wrap: wrap;
 }
 
 .icon li {
