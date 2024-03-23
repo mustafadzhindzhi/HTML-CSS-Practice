@@ -45,6 +45,7 @@ body::before {
     color: #000000;
     background-color: #FFCE34;
     cursor: pointer;
+    border: none;
 }
 
 .button:hover {

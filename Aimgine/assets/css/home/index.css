@@ -9,11 +9,12 @@
 @import url('/Aimgine/assets/css/whatwedo/readySections.css');
 @import url('/Aimgine/assets/css/whatwedo/footer.css');
 
-@import url('/assets/css/commonResponsiveCss/readySection.css');
-@import url('/assets/css/commonResponsiveCss/footerResponsive.css');
-@import url('/assets/css/commonResponsiveCss/headerResponsive.css');
+@import url('/Aimgine/assets/css/commonResponsiveCss/readySection.css');
+@import url('/Aimgine/assets/css/commonResponsiveCss/footerResponsive.css');
+@import url('/Aimgine/assets/css/commonResponsiveCss/headerResponsive.css');
 
-@import url('/assets/css/font-awesome.css');
+
+@import url('/Aimgine/assets/css/font-awesome.css');
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 

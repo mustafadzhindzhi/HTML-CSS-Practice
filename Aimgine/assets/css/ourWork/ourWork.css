@@ -28,3 +28,12 @@ cursor: pointer;
 background-color: #deac09;
 transition: 0.3s ease-in-out
 }
+
+@media screen and (max-width:768px) {
+    .our_work h2{
+        font-size: 50px;
+    }
+    .our_work button{
+        margin-top: 20px;
+    }
+}

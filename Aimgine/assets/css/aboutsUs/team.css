@@ -65,12 +65,20 @@
 }
 
 @media screen and (max-width: 768px) {
+    .team{
+        padding-left: 0px;
+    }
+
+    .team h2 {
+        margin: 0 auto;
+    }
+
     .team__cards {
         flex-direction: column;
-        width: 100%;
+        margin-top: 20px;
     }
 
     .team__card {
-        width: 80%;
+        width: 90%;
     }
 }

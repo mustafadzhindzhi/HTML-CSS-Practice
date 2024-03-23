@@ -11,7 +11,7 @@
 
 .customers__card {
     display: inline-block;
-    width: calc(32% - 30px); 
+    width: calc(32% - 30px);
     margin: 20px;
     border: 2px solid #ddd;
     border-radius: 10px;
@@ -19,7 +19,7 @@
 
 .customer__card-container {
     padding: 20px;
-    align-items: center; 
+    align-items: center;
     text-align: center;
 }
 
@@ -44,4 +44,28 @@
 .social-icon {
     font-size: 24px;
     color: #FFF;
+}
+
+@media screen and (max-width:768px) {
+    .customers__title h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .customers__card {
+        width: 40%;
+        margin: 4%;
+    }
+
+    .customers__card-container {
+        width: 100%;
+    }
+
+    .customer__card-container img {
+        width: 100%;
+    }
+
+    .customer__card-name h2 {
+        font-size: 20px;
+    }
 }

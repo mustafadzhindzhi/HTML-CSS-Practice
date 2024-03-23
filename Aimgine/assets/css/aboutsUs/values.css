@@ -40,3 +40,13 @@
     line-height: 24px;
     color: #BBBBBB;
 }
+
+@media screen and (max-width: 768px) {
+    .values{
+        flex-direction: column;
+    }
+
+    .values__content-content p {
+        width: 90%;
+    }
+}

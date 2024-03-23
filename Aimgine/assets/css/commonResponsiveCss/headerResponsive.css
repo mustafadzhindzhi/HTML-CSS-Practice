@@ -3,12 +3,29 @@
         display: none;
     }
 
-    .mobile-nav {
-        display: block;
+    .nav-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-btn {
+        margin-left: auto; 
+        width: 18%;
+        padding-bottom: 10px;
+    }
+
+    .header-btn button {
+        width: 100%;
+        height: 30px;
     }
 
     .btn__header {
-        display: none;
+        display: block;
+    }
+
+    .mobile-nav {
+        display: flex;
+        align-items: center;
     }
 
     .menu-toggle {
@@ -18,6 +35,7 @@
         border: none;
         font-size: 2rem;
         cursor: pointer;
+        margin-right: 10px; 
     }
 
     .menu-toggle:focus {
